@@ -38,7 +38,7 @@ namespace Radar
             _color = color;
         }
         // ve cac muc tieu tren man hinh scan cua radar
-        public void DrawItem(Radar radar, Graphics g)
+        public void DrawItem(Theradar radar, Graphics g)
         {
             PointF cp = new PointF((float)_current.X, (float)_current.Y);
             //loai 1 - Hinh vuong - Quan ta

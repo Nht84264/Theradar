@@ -73,7 +73,7 @@ namespace Theradar
             this.pictureBox1.Size = new System.Drawing.Size(413, 300);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // comboBox1
             // 
@@ -130,6 +130,7 @@ namespace Theradar
             this.listView1.TabIndex = 6;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -178,7 +179,7 @@ namespace Theradar
             this.rbtnguoc.TabStop = true;
             this.rbtnguoc.Text = "Quét chiều ngược";
             this.rbtnguoc.UseVisualStyleBackColor = true;
-            this.rbtnguoc.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.rbtnguoc.CheckedChanged += new System.EventHandler(this.RadioButton2_CheckedChanged);
             // 
             // rbtthuan
             // 
@@ -308,6 +309,7 @@ namespace Theradar
             this.txtNoSprial.Name = "txtNoSprial";
             this.txtNoSprial.Size = new System.Drawing.Size(119, 27);
             this.txtNoSprial.TabIndex = 16;
+            this.txtNoSprial.TextChanged += new System.EventHandler(this.txtNoSprial_TextChanged);
             // 
             // Form1
             // 
